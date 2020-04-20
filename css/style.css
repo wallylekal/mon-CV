@@ -1,0 +1,137 @@
+/* Définition des deux couleurs principales */
+body {
+--lightcolor: #FECA07;
+--darkcolor: #404040;
+}
+
+/* Taille du h2 */
+h2 {
+font-size: 1.7em;
+}
+
+/* Aspect des lignes de séparation horizontales */
+hr {
+background-color: var(--lightcolor);
+height: 1px;
+}
+
+/* Couleur de fond de la photo */
+.photo {
+background-color: var(--lightcolor);
+}
+
+/* Mise en page et bordure de la photo */
+.photocv {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid #69696773;
+margin-top: 3em;
+}
+
+/* Mise en page du nom et du job */
+.title {
+margin-top: 3em;
+padding-left: 60px;
+}
+
+/* Aspect du trait sous le nom du job */
+.underline {
+border-bottom: 2px solid var(--lightcolor);
+}
+
+/* Couleur du prénom et des icônes */
+.name {
+color: var(--lightcolor);
+font-weight: bolder;
+}
+
+/* Couleur des icônes */
+.icons {
+color: var(--lightcolor);
+}
+
+/* Couleur du poste recherché */
+.job {
+color: var(--darkcolor);
+}
+
+/* Couleur de fond des sections Contact et A propos */
+.infos {
+background-color: var(--lightcolor);
+padding-right:0;
+padding-left: 0;
+padding-top: 1em;
+}
+
+/* Couleur et présentation du texte des sections Contact et A propos */
+.text1 {
+color: var(--darkcolor);
+padding-right: 3.5em;
+padding-left: 3.5em;
+text-align:justify;
+}
+
+/* En-têtes grises des sections Contact, A propos, Loisirs*/
+.darkborder {
+background-color: var(--darkcolor);
+color: var(--lightcolor);
+text-align: center;
+padding: 5px;
+}
+
+/* Disposition des icônes de la section Loisirs */
+#flex_loisir {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-right: 5em;
+margin-left: 5em;
+}
+
+/* Aspect des icônes à l'intérieur de la section Loisirs */
+.loisir {
+color: var(--darkcolor);
+font-size: 2em;
+border: 2px solid var(--darkcolor);
+border-radius: 50%;
+padding: 10px;
+height: 56px;
+width: 56px;
+}
+
+/* Mise en page des sections Formation, Expérience Pro, Langues */
+.resume {
+padding-top: 1em;
+padding-left: 60px;
+padding-right: 60px;
+}
+
+/* Couleur et présentation du texte des sections Formation, Expérience Pro, Langues */
+.text2 {
+color: var(--darkcolor);
+text-align:justify;
+}
+
+/* Espacement des interlignes des postes dans les sections Formation et Expérience Pro */
+.lineheight {
+line-height: 2.5em;
+}
+
+/* Mise en page du footer */
+footer {
+margin-top: 1em;
+padding: 20px;
+font-size: 0.7em;
+text-align: center;
+}
+
+/* Règles particulières pour les petits écrans */
+@media screen and (max-width: 768px) {
+	.photo {
+	background-color: white;
+	}
+	.title {
+	text-align: center;
+	}
+}
