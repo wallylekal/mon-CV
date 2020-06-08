@@ -1,0 +1,139 @@
+
+/* coouleur  yellow and brown*/
+body {
+--lightcolor: gray;
+--brown: #404040;
+}
+
+/* font size h2 */
+h2 {
+font-size: 1.7em;
+}
+
+h3 {
+  margin-bottom:25px;
+}
+
+/* horizontale rule*/
+hr {
+background-color: var(--lightcolor);
+height: 1px;
+}
+
+/* Color  background picture*/
+.picture {
+background-color: var(--lightcolor);
+}
+
+/* bordure picture  */
+.pic {
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: 5px solid #69696773;
+margin-top: 3em;
+}
+
+/* margin metier  */
+.title {
+margin-top: 3em;
+padding-left: 60px;
+}
+
+/*souligne metier*/
+.underline{
+border-bottom: 2px solid var(--lightcolor);
+}
+
+/*couleur icone*/
+.identité{
+color: var(--lightcolor);
+font-weight: bolder;
+}
+
+/* Couleur  icônes */
+.icons {
+color: var(--lightcolor);
+}
+
+/* Couleur metier*/
+.metier{
+color: var(--brown);
+}
+
+/* Couleur background a propos /contact*/
+.infos {
+background-color: var(--lightcolor);
+padding-right:0;
+padding-left: 0;
+padding-top: 1em;
+}
+
+/* Couleur  Contact / a propos */
+.one {
+color: var(--darkcolor);
+padding-right: 3.5em;
+padding-left: 3.5em;
+text-align:justify;
+}
+
+.textuel{
+  margin-bottom: 25px;
+}
+
+/*en tête contact, a propos, loisir*/
+.darkborder {
+background-color: var(--brown);
+color: var(--lightcolor);
+text-align: center;
+padding: 5px;
+}
+
+/* Disposition des icônes Loisirs */
+#flex_hobbies {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+margin-right: 5em;
+margin-left: 5em;
+}
+
+/* forme  des icônes Loisirs */
+.hobbies {
+color: var(--brown);
+font-size: 2em;
+border: 2px solid var(--brown);
+border-radius: 50%;
+padding: 10px;
+height: 56px;
+width: 56px;
+}
+
+/* mise en page sur rubriques de Formation, Expérience & Langues */
+.divers {
+padding-top: 4em;
+padding-left: 60px;
+padding-right: 70px;
+}
+
+/* Couleur Formation, Expérience  Langues */
+.textuel {
+color: var(--brown);
+text-align:justify;
+}
+
+/* Espacement des interlignes des postes dans les sections Formation et Expérience */
+.lineheight {
+line-height: 2.5em;
+}
+
+/* media query  */
+@media screen and (max-width: 768px) {
+	.picture {
+	background-color: white;
+	}
+	.title {
+	text-align: center;
+	}
+}
+
